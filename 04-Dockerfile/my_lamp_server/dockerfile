@@ -1,0 +1,38 @@
+# -------------------- DEBUT COUCHE OS -------------------------
+FROM
+# -------------------- Fin COUCHE OS ---------------------------
+
+# METADONNEES DE L'IMAGE
+LABEL   
+
+# VARIABLES TEMPORAIRES
+
+# -------------------- DEBUT COUCHE APACHE ------------------------- 
+RUN
+# -------------------- FIN COUCHE APACHE ---------------------------
+
+
+
+# -------------------- DEBUT COUCHE MYSQL ------------------------- 
+RUN
+
+COPY
+# -------------------- FIN COUCHE MYSQL ---------------------------
+
+
+
+# -------------------- DEBUT COUCHE PHP ------------------------- 
+RUN
+
+COPY
+# -------------------- FIN COUCHE PHP ---------------------------
+
+
+# OUVERTURE DES PORTS
+EXPOSE 
+
+# REPERTOIRE DE TRAVAIL
+WORKDIR
+
+# DEMARRAGE DES SERVICES LORS DE L'EXECUTION DE L'IMAGE
+ENTRYPOINT
