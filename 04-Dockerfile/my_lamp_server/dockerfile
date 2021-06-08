@@ -3,7 +3,7 @@ FROM debian:latest
 # -------------------- Fin COUCHE OS ---------------------------
 
 # METADONNEES DE L'IMAGE
-LABEL version="1.0.0" maintainer="Anthony Di Persio <anthony@utopios.net"  
+LABEL version="1.0.0" maintainer="Anthony Di Persio <anthony@utopios.net>"  
 
 # VARIABLES TEMPORAIRES
 ARG APT_FLAGS="-q -y"
