@@ -11,7 +11,7 @@
 ## => Proceder à l'installation de git
 ## => Vérifier son installation avec la commande git --version
 
-################## Correction ########################
+####################### Correction ########################
 
 ## Rechercher l'image debian:latest
 $ docker search httpd:latest
