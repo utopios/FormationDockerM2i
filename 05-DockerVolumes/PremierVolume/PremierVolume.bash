@@ -23,6 +23,9 @@ $ docker volume inspect volume-test
 ## Supprimer un volume
 $ docker volume rm volume-test
 
+## Création d'un volume
+$ docker volume create volume-test
+
 ## Build de l'image
 $ docker build -t vtest .
 
